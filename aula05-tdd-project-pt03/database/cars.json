@@ -1,0 +1,30 @@
+[
+  {
+    "id": "64eb5024-6a30-4a7f-a04e-c1c1c8d5628a",
+    "name": "Mercielago",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "66624210-a3b5-461b-a365-858f7b0954ad",
+    "name": "Roadster",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "331dff70-ab3e-4722-a098-4940a91f7e9d",
+    "name": "Taurus",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "6adc6ed0-deb0-40e6-8882-198984ab893c",
+    "name": "Jetta",
+    "releaseYear": 2019,
+    "available": true,
+    "gasAvailable": true
+  }
+]
