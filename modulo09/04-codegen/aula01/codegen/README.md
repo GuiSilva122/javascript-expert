@@ -1,0 +1,28 @@
+# Task Checklist
+
+- [X] creates `src` main folder if it not exists
+- [X] creates `repository` layer
+- [X] creates `service` layer with `repository` as dependency
+- [X] creates `factory` layer with `service` and `repository` returning its instances
+- [ ] can create multiples domains with a single comand
+- [X] saves files as `camelCase` and classes as `PascalCase`
+- [X] reaches **100% test coverage**
+- [X] integration tests should validate files on disk as a valid JS class
+
+## Make a command line tool
+
+Steps
+- Add bin to the package.json file:
+```
+"bin": {
+    "codegen": "./src/index.js"
+}
+```
+- Add the shebang line for Node in the index.js file:
+`#!/usr/bin/env node`
+
+- Run the npm command in the codegen directory:
+`npm link`
+
+- To see the documentation run:
+`codegen --help`
